@@ -1,0 +1,19 @@
+{
+  "name": "fare-policy",
+  "version": "0.1.0",
+  "description": "A small slice of a corporate travel booking system.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "npm run typecheck && node --test",
+    "test:only": "node --test",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "@types/node": "^24.3.0"
+  }
+}
